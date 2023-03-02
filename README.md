@@ -1,2 +1,2 @@
 # D-Studio
- Photo and videography tempale website
+ Responsive Photo and videography template website
