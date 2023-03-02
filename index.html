@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miko">
+    <meta name="description" content="D Studio Photo & Video Agency">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D Studio Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">D Studio</a>
+            <button class="mobile__menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <div class="nav__links" role="navigation links">
+                <a href="#home" title="Home" class="nav__link">Home</a>
+                <a href="#about" title="About us" class="nav__link">About</a>
+                <a href="#gallery" title="Gallery" class="nav__link">Gallery</a>
+                <a href="#contact" title="Contact us" class="nav__link">Contact us</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article class="home" id="home">
+            <section class="container flex" aria-labelledby="home">
+                <article class="home__title">
+                    <h1>Let's Capture a Georgeous Moments With Us.</h1>
+                    <div class="home__button flex" role="button">
+                        <a href="#" class="button">Book Now</a>
+                        <p>or</p>
+                        <a href="#" class="button">See Our Collection</a>
+                    </div>
+                </article>
+            </section>
+        </article>
+        
+        <article class="about" id="about">
+            <section class="container flex" aria-labelledby="about">
+                <figure class="about__images">
+                    <img src="images/andrew-wise-unsplash.jpg" alt="person holding camera">
+                    <img  src="images/brian-lawson-unsplash.jpg" alt="person holding camera">
+                </figure>
+                <article class="about__desc">
+                    <h2>SKILLED PROFESSIONAL PHOTO & VIDEOGRAPHY</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consequatur ullam suscipit. Deleniti nihil in perspiciatis temporibus quo minima non deserunt dicta. Quidem necessitatibus provident sunt voluptatibus esse alias neque at accusamus quam, officiis numquam blanditiis ratione praesentium dolore aliquid?</p>
+                </article>
+            </section>
+        </article>
+
+        <article class="gallery" id="gallery">
+            <section class="container gallery__content" aria-labelledby="gallery">
+                <h2>CREATIVITY WITHOUT LIMIT</h2>
+                <figure class=" gallery__images flex">
+                    <img src="images/skycraft-studios-unsplash.jpg" alt="">
+                    <img src="images/gordon-cowie-unsplash.jpg" alt="">
+                </figure>
+
+                <figure class="career flex">
+                    <figcaption class="career__contents" role="career contents">
+                        <h3>BECOME A PRO?</h3>
+                        <p>Build your best community starting from here.</p>
+                        <a href="#" class="button">Join</a>
+                    </figcaption>
+                    <img src="images/cody-lannom-unsplash.jpg" alt="">
+                    <img src="images/cody-lannom-2-unsplash.jpg" alt="">
+                </figure>
+            </section>
+        </article>
+            
+        <article class="contact" id="contact">
+            <section class="container flex" aria-labelledby="contact">
+                <form>
+                    <h3>Get in Touch</h3>
+                    <div class="contact__input" role="contact input">
+                        <input type="text" id="name" required>
+                        <label for="name">Your name</label>
+                    </div>
+                    <div class="contact__input" role="contact input">
+                        <input type="text" id="email" required>
+                        <label for="email">Your email</label>
+                    </div>
+                    <div class="contact__input" role="contact input">
+                        <textarea type="text" id="message" rows="8" required></textarea>
+                        <label for="message">Your message</label>
+                    </div>
+                    <button class="button" type="submit">Send it ...<img src="images/send.png"></button>
+                </form>
+                <div class="contact__info" role="contact info">
+                    <h3>Let"s Talk!</h3>
+                    <p>We are always open to discuss your project, to find the best moment according to what you want.</p>
+                    <h4>Chat Now!</h4>
+                    <div class="contact__chat flex" role="contact button">
+                        <a href="#" class="button" title="Whatsapp" >Whatsapp</a>
+                        <a href="#" class="button" title="Telegram" >Telegram</a>
+                    </div>
+                    <p class="contact__caption">Take a peek at us :</p>
+                    <div class="contact__social flex" role="contact social link">
+                        <a href="#" class="contact__link" title="Instagram"><img src="images/instagram.png" alt="Instagram"></a>
+                        <a href="#" class="contact__link" title="Facebook"><img src="images/facebook.png" alt="Facebook"></a>
+                        <a href="#" class="contact__link" title="Twitter"><img src="images/twitter.png" alt="Twitter"></a>
+                        <a href="#" class="contact__link" title="Linkedin"><img src="images/linkedin.png" alt="Linkedin"></a>
+                    </div>
+                </div>
+            </section>
+            <footer class="flex">
+                <p>&copy 2023. All Right Reserved</p>
+                <p>Created by Miko</p>
+            </footer>
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
