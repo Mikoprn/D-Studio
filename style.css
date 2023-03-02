@@ -33,7 +33,7 @@ html {
     font-family: 'Montserrat', sans-serif;
     color: var(--dark-color);
     scroll-behavior: smooth;
-    scroll-padding-top: 3rem;
+    scroll-padding-top: 1.5rem;
     overflow-x: hidden;
 }
 
@@ -299,7 +299,7 @@ nav .nav__links {
     justify-content: center;
     flex-wrap: wrap;
     gap: 5rem;
-    padding-top: 10rem;
+    padding-top: 7rem;
 }
 
 form {
@@ -416,7 +416,7 @@ footer {
     width: var(--width-85);
     margin: 0 auto;
     height: 6rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: var(--light-color);
     justify-content: space-between;
     
