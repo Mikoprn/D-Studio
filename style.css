@@ -69,11 +69,12 @@ h4 {
 
 p {
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 500;
+    line-height: 1.4;
 }
 
 a {
-    font-weight: 400;
+    font-weight: 600;
     color : var(--light-color);
     cursor: pointer;
     transition: var(--transition);
@@ -206,7 +207,7 @@ nav .nav__links {
 .about .container {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5rem;
+    gap: 4rem;
 }
 
 .about__images {
@@ -377,13 +378,13 @@ textarea:valid~label {
 .contact__info h4,
 .contact__info .contact__caption {
     text-align: center;
-    margin-block: 3rem 1rem;
+    margin-block: 1rem;
 }
 
 .contact__chat{
     justify-content: center;
     gap: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .contact__chat .button:nth-child(1) {
@@ -391,9 +392,8 @@ textarea:valid~label {
 }
 
 .contact__chat .button:nth-child(2) {
-    background: #e0e0e4;
+    background: rgb(224, 224, 228);
     color:var(--accent-color);
-    font-weight: 500;
 }
 
 .contact__chat .button:hover {
